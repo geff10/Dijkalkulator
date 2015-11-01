@@ -155,3 +155,221 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-11-01 22:29:48.379 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-11-01 22:34:04.193
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 4 567 2015-11-01 22:34:04.265
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2015-11-01 22:34:04.265
+!MESSAGE Could not read metadata for 'Dijkalkulator'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'Dijkalkulator' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:902)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:882)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:733)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1588)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2386)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2157)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:463)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:140)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2015-11-01 22:34:04.284
+!MESSAGE The project description file (.project) for 'Dijkalkulator' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-01 22:34:27.128
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Zsolt'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 567 2015-11-01 22:37:07.519
+!MESSAGE The project description file (.project) for 'Dijkalkulator' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SESSION 2015-11-01 22:38:20.260 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-01 22:38:37.956
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Zsolt'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.help.base 4 0 2015-11-01 22:40:21.105
+!MESSAGE Help index declared, but missing for plugin org.eclipse.wst.jsdt.doc.
+
+!ENTRY org.eclipse.help.base 4 4 2015-11-01 22:40:33.794
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.794
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.794
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/breakpoints/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.794
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javaCompletionProposalComputer.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.794
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/dialogs/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.794
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/event/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.794
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/ast/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.794
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/jsdoc/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.794
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_validationParticipant.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.794
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/refactoring/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/connect/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/eval/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_documentationProvider.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/dom/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/java/hover/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javaElementFilters.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/request/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/launching/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_quickFixProcessors.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javaEditorTextHovers.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javaCompletionProposalSorters.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/libraries/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_inferrenceSupport.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/manipulation/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_JsGlobalScopeUIInitializer.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/rhino/debugger/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/refactoring/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.795
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/folding/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.796
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_codeFormatter.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.796
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/compiler/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.796
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/wizards/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.796
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/overview-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.796
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/model/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.796
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_quickAssistProcessors.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.796
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/search/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.796
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/actions/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.796
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/rhino/debugger/shell/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.796
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_foldingStructureProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.796
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_JsGlobalScopeContainerInitializer.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.796
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_debug_core_launchingConnectors.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.796
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/dom/rewrite/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.796
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_JsGlobalScopeVariableInitializer.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.797
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/util/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.797
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.797
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/search/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.797
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/jsdoc/msdn/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.797
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_sourcePathProvider.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.797
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/project/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.797
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_classpathAttributeConfiguration.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.797
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_debug_core_breakpointParticipants.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.797
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_JsGlobalScopeContainerPage.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.797
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/infer/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.797
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_queryParticipants.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.797
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/compiler/libraries/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.797
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/formatter/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.797
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.797
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/refactoring/descriptors/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.797
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javadocCompletionProcessor.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-01 22:40:33.797
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/java/package-summary.html cannot be opened.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-11-01 22:41:04.921
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-11-01 22:41:10.380
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-11-01 22:41:14.684
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled

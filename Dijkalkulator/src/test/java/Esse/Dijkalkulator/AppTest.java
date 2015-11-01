@@ -1,4 +1,4 @@
-package Esse.Dijkalkulator;
+package esse.Dijkalkulator;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

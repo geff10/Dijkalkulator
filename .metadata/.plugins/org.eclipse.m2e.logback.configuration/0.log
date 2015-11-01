@@ -449,3 +449,16 @@
 2015-10-24 21:03:26,180 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\src\main\resources
 2015-10-24 21:03:26,182 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-10-24 21:03:26,182 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-01 22:41:04,860 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\pom.xml
+2015-11-01 22:41:04,921 [Worker-3] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2015-11-01 22:41:08,754 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: esse:Dijkalkulator:0.0.1-SNAPSHOT @ D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\pom.xml.
+2015-11-01 22:41:10,380 [Worker-3] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2015-11-01 22:41:10,864 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Dijkalkulator/src/main/java
+2015-11-01 22:41:10,868 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Dijkalkulator/src/test/java
+2015-11-01 22:41:11,263 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2015-11-01 22:41:14,684 [Worker-9] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2015-11-01 22:41:14,739 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-01 22:41:14,739 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-01 22:41:14,742 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-01 22:41:14,742 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-01 22:41:44,860 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.

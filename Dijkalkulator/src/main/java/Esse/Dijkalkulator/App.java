@@ -1,4 +1,4 @@
-package Esse.Dijkalkulator;
+package esse.Dijkalkulator;
 
 /**
  * Hello world!
