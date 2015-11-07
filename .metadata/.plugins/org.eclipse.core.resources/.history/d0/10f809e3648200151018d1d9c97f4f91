@@ -1,0 +1,31 @@
+package esse.Dijkalkulator;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import java.awt.BorderLayout;
+import net.miginfocom.swing.MigLayout;
+import javax.swing.JMenuBar;
+import javax.swing.JMenu;
+import javax.swing.JMenuItem;
+
+public class GUIForDijkalkulator extends JFrame {
+	public GUIForDijkalkulator() {
+		
+		JPanel panel = new JPanel();
+		getContentPane().add(panel, BorderLayout.CENTER);
+		panel.setLayout(new MigLayout("", "[]", "[]"));
+		
+		JMenuBar menuBar = new JMenuBar();
+		setJMenuBar(menuBar);
+		
+		JMenu mnFile = new JMenu("File");
+		menuBar.add(mnFile);
+		
+		JMenuItem mntmKapacsitsTpusokSzerkesztse = new JMenuItem("Kapacsitás típusok szerkesztése");
+		mnFile.add(mntmKapacsitsTpusokSzerkesztse);
+		
+		JMenuItem mntmKapacitsokListjnakSzerkesztse = new JMenuItem("Kapacitások listájának szerkesztése");
+		mnFile.add(mntmKapacitsokListjnakSzerkesztse);
+	}
+
+}

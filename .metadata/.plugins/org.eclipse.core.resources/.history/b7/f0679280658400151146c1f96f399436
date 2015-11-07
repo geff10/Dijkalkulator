@@ -1,0 +1,56 @@
+package esse.Dijkalkulator;
+
+import javax.swing.JDialog;
+import javax.swing.JFrame;
+import net.miginfocom.swing.MigLayout;
+import javax.swing.JPanel;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.JMenuBar;
+import javax.swing.JMenu;
+import javax.swing.JMenuItem;
+
+public class JDialogPointTypes extends JDialog  {
+	private JTable tablePointTypes;
+	public JDialogPointTypes() {
+	setTitle("Pontcsoportok");
+		this.setSize(400, 400);
+		this.setModal(true);
+		getContentPane().setLayout(new MigLayout("", "[grow][]", "[grow][]"));
+		
+		JPanel panel = new JPanel();
+		getContentPane().add(panel, "cell 0 0,grow");
+		
+		JMenuBar menuBar = new JMenuBar();
+		setJMenuBar(menuBar);
+		
+		JMenu mnFile = new JMenu("File");
+		menuBar.add(mnFile);
+		
+		JMenuItem mntmMegnyitas = new JMenuItem("Megnyitás");
+		mnFile.add(mntmMegnyitas);
+		
+		JMenuItem mntmMentes = new JMenuItem("Mentés");
+		mnFile.add(mntmMentes);
+		
+		JMenuItem mntmMentesMaskent = new JMenuItem("Mentés másként...");
+		mnFile.add(mntmMentesMaskent);
+//		getContentPane().setLayout(new MigLayout("", "[grow][]", "[grow][]"));
+//		
+//		JPanel panel = new JPanel();
+//		getContentPane().add(panel, "cell 0 0,grow");
+//		panel.setLayout(new MigLayout("", "[grow]", "[grow]"));
+//		
+//		tablePointTypes = new JTable();
+//		tablePointTypes.setModel(new DefaultTableModel(
+//			new Object[][] {
+//			},
+//			new String[] {
+//				"New column", "New column"
+//			}
+//		));
+//		panel.add(tablePointTypes, "cell 0 0,grow");
+//	}
+
+}
+}

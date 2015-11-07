@@ -1,0 +1,31 @@
+package esse.Dijkalkulator;
+
+import javax.swing.JFrame;
+import net.miginfocom.swing.MigLayout;
+import javax.swing.JPanel;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
+
+public class JFramePointTypes extends JFrame {
+	private JTable tablePointTypes;
+	public JFramePointTypes() {
+		setTitle("Pontcsoportok");
+		this.setSize(400, 400);
+		getContentPane().setLayout(new MigLayout("", "[grow][]", "[grow][]"));
+		
+		JPanel panel = new JPanel();
+		getContentPane().add(panel, "cell 0 0,grow");
+		panel.setLayout(new MigLayout("", "[grow]", "[grow]"));
+		
+		tablePointTypes = new JTable();
+		tablePointTypes.setModel(new DefaultTableModel(
+			new Object[][] {
+			},
+			new String[] {
+				"New column", "New column"
+			}
+		));
+		panel.add(tablePointTypes, "cell 0 0,grow");
+	}
+
+}
