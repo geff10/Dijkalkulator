@@ -1,7 +1,0 @@
-package esse.Dijkalkulator;
-
-import javax.swing.JFrame;
-
-public class JFramePointTypes extends JFrame {
-
-}

@@ -819,3 +819,323 @@ Caused by: java.net.UnknownHostException: download.eclipse.org
 2015-11-06 13:45:50,653 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
 2015-11-06 13:45:50,656 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-11-06 13:45:50,656 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-08 20:05:26,632 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-08 20:05:26,722 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-08 20:05:26,746 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-08 20:05:26,746 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-08 20:11:57,308 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-08 20:11:57,322 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-08 20:11:57,325 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-08 20:11:57,325 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-08 20:15:08,834 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-08 20:15:08,834 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-08 20:15:08,836 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-08 20:15:08,836 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-09 23:20:10,351 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-09 23:20:10,490 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-09 23:20:10,492 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-09 23:20:10,493 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-10 19:48:04,112 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 19:48:04,180 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-10 19:48:04,184 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 19:48:04,184 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-10 19:48:06,716 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 19:48:06,717 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-10 19:48:06,719 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 19:48:06,719 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 09:31:07,280 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:31:07,280 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 09:31:07,283 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:31:07,284 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 09:31:29,329 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:31:29,329 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 09:31:29,331 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:31:29,331 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 09:31:37,783 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2015-11-11 09:35:35,187 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:35:35,188 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 09:35:35,193 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:35:35,193 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 09:49:36,465 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:49:36,465 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 09:49:36,467 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:49:36,467 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 09:58:48,126 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:58:48,127 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 09:58:48,128 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:58:48,128 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:03:50,145 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:03:50,145 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:03:50,147 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:03:50,147 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:04:48,703 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:04:48,703 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:04:48,704 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:04:48,705 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:06:13,021 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:06:13,021 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:06:13,023 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:06:13,024 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:07:59,756 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:07:59,757 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:07:59,759 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:07:59,760 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:16:53,819 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:16:53,820 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:16:53,821 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:16:53,822 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:20:06,807 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:20:06,809 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:20:06,814 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:20:06,815 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:20:37,488 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:20:37,489 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:20:37,491 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:20:37,492 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:20:49,103 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:20:49,104 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:20:49,107 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:20:49,108 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:31:11,136 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:31:11,138 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:31:11,140 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:31:11,141 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:35:19,017 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:35:19,017 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:35:19,019 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:35:19,020 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:37:48,838 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:37:48,839 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:37:48,841 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:37:48,841 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:38:41,125 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:38:41,126 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:38:41,127 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:38:41,129 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:39:16,611 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:39:16,612 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:39:16,614 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:39:16,615 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:40:10,308 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:40:10,309 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:40:10,310 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:40:10,311 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:40:23,860 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:40:23,863 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:40:23,865 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:40:23,865 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:49:15,856 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:49:15,857 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:49:15,860 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:49:15,861 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:51:05,527 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:51:05,528 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:51:05,530 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:51:05,531 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:56:04,866 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:56:04,867 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:56:04,868 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:56:04,869 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 11:57:59,094 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:57:59,095 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 11:57:59,097 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 11:57:59,097 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 12:04:58,514 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 12:04:58,522 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 12:04:58,526 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 12:04:58,526 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 12:05:00,941 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2015-11-11 12:15:17,827 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 12:15:17,828 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 12:15:17,830 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 12:15:17,831 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 12:31:23,083 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 12:31:23,084 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 12:31:23,086 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 12:31:23,087 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 12:32:21,145 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 12:32:21,146 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 12:32:21,148 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 12:32:21,149 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 12:33:06,913 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 12:33:06,914 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 12:33:06,916 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 12:33:06,918 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 13:01:00,978 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:01:00,979 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 13:01:00,981 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:01:00,982 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 13:27:59,414 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:27:59,415 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 13:27:59,417 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:27:59,419 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 13:30:14,958 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:30:14,959 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 13:30:14,962 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:30:14,963 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 13:30:51,026 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:30:51,027 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 13:30:51,035 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:30:51,037 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 13:31:12,176 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:31:12,178 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 13:31:12,180 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:31:12,181 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 13:31:43,660 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:31:43,661 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 13:31:43,662 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:31:43,664 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 13:31:56,748 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:31:56,750 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 13:31:56,751 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:31:56,752 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 13:34:41,744 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:34:41,745 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 13:34:41,746 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:34:41,747 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 13:35:01,382 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:35:01,383 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 13:35:01,386 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:35:01,387 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 13:36:10,352 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:36:10,353 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 13:36:10,354 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:36:10,355 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 13:41:19,633 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:41:19,635 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 13:41:19,637 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:41:19,638 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 13:48:18,919 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:48:18,920 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 13:48:18,923 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:48:18,924 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 13:51:04,170 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:51:04,171 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 13:51:04,172 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:51:04,173 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 13:51:09,575 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:51:09,576 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 13:51:09,578 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:51:09,580 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 14:19:37,091 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:19:37,092 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 14:19:37,095 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:19:37,096 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 14:35:51,603 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:35:51,604 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 14:35:51,607 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:35:51,608 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 14:52:17,472 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:52:17,473 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 14:52:17,475 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:52:17,476 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-11 14:53:30,336 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:53:30,337 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-11 14:53:30,338 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:53:30,340 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-13 18:01:21,819 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-13 18:01:21,873 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-13 18:01:21,882 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-13 18:01:21,882 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-13 18:01:25,933 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2015-11-13 18:29:29,184 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-13 18:29:29,185 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-13 18:29:29,190 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-13 18:29:29,190 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-13 18:48:20,527 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-13 18:48:20,528 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-13 18:48:20,530 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-13 18:48:20,530 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-13 18:58:11,095 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-13 18:58:11,095 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-13 18:58:11,096 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-13 18:58:11,096 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-13 19:59:50,313 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-13 19:59:50,313 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-13 19:59:50,315 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-13 19:59:50,315 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-13 20:36:35,178 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-13 20:36:35,179 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-13 20:36:35,183 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-13 20:36:35,184 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-13 20:36:51,699 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-13 20:36:51,699 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-13 20:36:51,701 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-13 20:36:51,702 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 15:27:02,167 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 15:27:02,169 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 15:27:02,170 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 15:27:02,171 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 15:28:42,241 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 15:28:42,241 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 15:28:42,243 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 15:28:42,243 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 15:29:59,489 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 15:29:59,490 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 15:29:59,491 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 15:29:59,492 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 15:46:40,027 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 15:46:40,027 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 15:46:40,029 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 15:46:40,029 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 15:47:51,685 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 15:47:51,686 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 15:47:51,688 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 15:47:51,688 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 15:48:55,873 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 15:48:55,874 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 15:48:55,875 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 15:48:55,875 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 15:49:39,559 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 15:49:39,559 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 15:49:39,561 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 15:49:39,561 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 16:02:13,149 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 16:02:13,149 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 16:02:13,192 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 16:02:13,192 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 16:03:34,628 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 16:03:34,628 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 16:03:34,634 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 16:03:34,634 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 16:10:49,047 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 16:10:49,047 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 16:10:49,049 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 16:10:49,049 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 16:11:03,673 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 16:11:03,673 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 16:11:03,676 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 16:11:03,676 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 16:17:01,485 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 16:17:01,485 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 16:17:01,487 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 16:17:01,487 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 16:34:04,052 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 16:34:04,053 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 16:34:04,054 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 16:34:04,054 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 16:34:07,824 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 16:34:07,824 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 16:34:07,825 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 16:34:07,825 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 16:35:44,522 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 16:35:44,523 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 16:35:44,529 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 16:35:44,529 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 18:22:45,074 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 18:22:45,074 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 18:22:45,076 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 18:22:45,113 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 18:40:18,803 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 18:40:18,804 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 18:40:18,806 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 18:40:18,806 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 18:46:59,013 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 18:46:59,013 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 18:46:59,015 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 18:46:59,015 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 20:33:05,277 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 20:33:05,328 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\main\resources
+2015-11-14 20:33:05,331 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-14 20:33:05,332 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Programming\tesztfeladat\Dijkalkulator\Dijkalkulator\Dijkalkulator\src\test\resources
+2015-11-14 20:33:09,592 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.

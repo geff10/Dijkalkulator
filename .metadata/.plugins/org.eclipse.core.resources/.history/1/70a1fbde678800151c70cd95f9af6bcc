@@ -1,0 +1,121 @@
+package esse.Dijkalkulator;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+
+import javax.swing.JDialog;
+import javax.swing.JFileChooser;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JPanel;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
+
+import net.miginfocom.swing.MigLayout;
+import javax.swing.JScrollPane;
+
+public class JDialogPointTypes extends JDialog  {
+	private JTable tablePointTypes;
+	private JTable tablePointTypes_1;
+	public JDialogPointTypes() {
+	setTitle("Pontcsoportok");
+		this.setSize(400, 400);
+		this.setModal(true);
+		getContentPane().setLayout(new MigLayout("", "[grow][]", "[grow][]"));
+		
+		JPanel panel = new JPanel();
+		getContentPane().add(panel, "cell 0 0,grow");
+		
+		JScrollPane scrollPane = new JScrollPane();
+		panel.add(scrollPane);
+		
+		tablePointTypes_1 = new JTable();
+		scrollPane.setViewportView(tablePointTypes_1);
+		tablePointTypes_1.setModel(new DefaultTableModel(
+			new Object[][] { { "Saravan", "Pantham", new Integer(50), "B", new Boolean(false) },
+		        { "Eric", "", new Integer(180), "O", new Boolean(true) },
+		        { "John", "", new Integer(120), "AB", new Boolean(false) },
+		        { "Mathew", "", new Integer(140), "A", new Boolean(true) }, },
+			new String[] {
+					"First Name", "Last Name", "Weight (lb)", "Blood Group", "Age>20yrs"
+					}
+		));
+		
+		JMenuBar menuBar = new JMenuBar();
+		setJMenuBar(menuBar);
+		
+		JMenu mnFile = new JMenu("File");
+		menuBar.add(mnFile);
+		
+		JMenuItem mntmMegnyitas = new JMenuItem("Megnyitás");
+		mntmMegnyitas.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0)  {
+				//TODO open file
+				final JFileChooser fc = new JFileChooser();
+				//In response to a button click:
+				int returnVal = 
+						fc.showOpenDialog(App.getoGUIForDijkalkulator().getoPointTypesMenuActionListener().getoJDialogPointTypes());
+				if (returnVal == JFileChooser.APPROVE_OPTION) {
+					File openedFile = fc.getSelectedFile();
+					setTableModel();
+					System.out.println(openedFile.toString());
+					
+//					try {
+//						capacityConfigManager ccM = new capacityConfigManager();
+//						//ccM.setCtFile(openedFile.toString());
+//						//ccM.ReadCapacityTypes();
+//						
+//						
+//					} catch (FileNotFoundException e) {
+//						// TODO Auto-generated catch block
+//						e.printStackTrace();
+//					} catch (IOException e) {
+//						// TODO Auto-generated catch block
+//						e.printStackTrace();
+//					}
+//					//TODO
+					
+				}
+			}
+
+			private void setTableModel() {
+			    String[] columnTitles = { "First Name", "Last Name", "Weight (lb)", "Blood Group", "Age>20yrs" };
+			    Object[][] dataEntries = { { "Saravan", "Pantham", new Integer(50), "B", new Boolean(false) },
+			        { "AAA", "", new Integer(180), "O", new Boolean(true) },
+			        { "BBB", "", new Integer(120), "AB", new Boolean(false) },
+			        { "CCC", "", new Integer(140), "A", new Boolean(true) }, };
+			    
+			    
+			    DefaultTableModel  dataModel = new DefaultTableModel(dataEntries, columnTitles);
+				tablePointTypes.setModel(dataModel);
+				
+			}
+		});
+		mnFile.add(mntmMegnyitas);
+		
+		JMenuItem mntmMentes = new JMenuItem("Mentés");
+		mnFile.add(mntmMentes);
+		
+		JMenuItem mntmMentesMaskent = new JMenuItem("Mentés másként...");
+		mnFile.add(mntmMentesMaskent);
+//		getContentPane().setLayout(new MigLayout("", "[grow][]", "[grow][]"));
+//		
+//		JPanel panel = new JPanel();
+//		getContentPane().add(panel, "cell 0 0,grow");
+//		panel.setLayout(new MigLayout("", "[grow]", "[grow]"));
+//		
+//		tablePointTypes = new JTable();
+//		tablePointTypes.setModel(new DefaultTableModel(
+//			new Object[][] {
+//			},
+//			new String[] {
+//				"New column", "New column"
+//			}
+//		));
+//		panel.add(tablePointTypes, "cell 0 0,grow");
+//	}
+
+}
+}

@@ -1,23 +1,29 @@
 package esse.Dijkalkulator;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Map;
+import java.util.Properties;
+
 import javax.swing.JDialog;
 import javax.swing.JFileChooser;
-import javax.swing.JFrame;
-import net.miginfocom.swing.MigLayout;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
-import javax.swing.JMenuBar;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import java.awt.event.ActionListener;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.InputStream;
-import java.awt.event.ActionEvent;
+
+import net.miginfocom.swing.MigLayout;
+import javax.swing.JScrollPane;
 
 public class JDialogPointTypes extends JDialog  {
+	Properties props = new Properties();
+	 CapacityConfigManager ccM = CapacityConfigManager.getInstance( );
+	
 	private JTable tablePointTypes;
 	private JTable tablePointTypes_1;
 	public JDialogPointTypes() {
@@ -29,15 +35,23 @@ public class JDialogPointTypes extends JDialog  {
 		JPanel panel = new JPanel();
 		getContentPane().add(panel, "cell 0 0,grow");
 		
+		JScrollPane scrollPane = new JScrollPane();
+		panel.add(scrollPane);
+		
 		tablePointTypes_1 = new JTable();
-		tablePointTypes_1.setModel(new DefaultTableModel(
-			new Object[][] {
-			},
-			new String[] {
-				"New column", "New column"
-			}
-		));
-		panel.add(tablePointTypes_1);
+		scrollPane.setViewportView(tablePointTypes_1);
+		final DefaultTableModel tableModelPT = new DefaultTableModel(
+				new Object[][] {
+					{ "Saravan", "Pantham" },
+			        { "Eric", "", },
+			        { "John", "" },
+			        { "Mathew", ""},
+			        },
+				new String[] {
+						"First Name", "Last Name"
+						});
+			        
+		tablePointTypes_1.setModel(tableModelPT);
 		
 		JMenuBar menuBar = new JMenuBar();
 		setJMenuBar(menuBar);
@@ -48,42 +62,88 @@ public class JDialogPointTypes extends JDialog  {
 		JMenuItem mntmMegnyitas = new JMenuItem("Megnyitás");
 		mntmMegnyitas.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0)  {
-				//TODO open file
 				final JFileChooser fc = new JFileChooser();
 				//In response to a button click:
 				int returnVal = 
 						fc.showOpenDialog(App.getoGUIForDijkalkulator().getoPointTypesMenuActionListener().getoJDialogPointTypes());
 				if (returnVal == JFileChooser.APPROVE_OPTION) {
 					File openedFile = fc.getSelectedFile();
-//					capacityConfigManager ccM = new capacityConfigManager();
-					//TODO
+					
+					System.out.println(openedFile.toString());
+					
+					try {
+						ccM.setCtFile(openedFile.toString());
+						ccM.ReadCapacityTypes();
+						props =  ccM.getCapacityTypesProp();
+						
+						setTableModel();
+					} catch (FileNotFoundException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					catch (NullPointerException e) {
+						System.out.println("NULLPOINTER");
+						e.printStackTrace();
+					}
 					
 				}
+			}
+
+			private void setTableModel() {
+				tableModelPT.setRowCount(0);
+			    for (Map.Entry<?, ?> entry: props.entrySet()) {
+			        String key = (String) entry.getKey();
+			        String value = (String) entry.getValue();
+			        tableModelPT.addRow(new Object[]{ key, value});
+			    }
+				
 			}
 		});
 		mnFile.add(mntmMegnyitas);
 		
 		JMenuItem mntmMentes = new JMenuItem("Mentés");
+		mntmMentes.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				JFileChooser fileChooser = new JFileChooser();
+				if (fileChooser.showSaveDialog(
+						App.getoGUIForDijkalkulator().getoPointTypesMenuActionListener().getoJDialogPointTypes()
+						) == JFileChooser.APPROVE_OPTION) {
+				  File fileToSave = fileChooser.getSelectedFile();
+				  System.out.println(fileToSave.toString());
+				  if (props != null)
+				  {
+				  for (int i = 0; i < tableModelPT.getRowCount(); i++) {
+					props.setProperty(
+							tableModelPT.getValueAt(i, 0).toString(),
+							tableModelPT.getValueAt(i, 1).toString()
+							);
+				}
+				 
+				try {
+					ccM.setCapacityTypesProp(props);
+					ccM.setCtFile(fileToSave.toString());
+					ccM.WriteCapacityTypes();
+				} catch (FileNotFoundException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				  }
+				  else
+					  System.out.println("nullllllllllll");
+				}
+			}
+		});
 		mnFile.add(mntmMentes);
 		
 		JMenuItem mntmMentesMaskent = new JMenuItem("Mentés másként...");
 		mnFile.add(mntmMentesMaskent);
-//		getContentPane().setLayout(new MigLayout("", "[grow][]", "[grow][]"));
-//		
-//		JPanel panel = new JPanel();
-//		getContentPane().add(panel, "cell 0 0,grow");
-//		panel.setLayout(new MigLayout("", "[grow]", "[grow]"));
-//		
-//		tablePointTypes = new JTable();
-//		tablePointTypes.setModel(new DefaultTableModel(
-//			new Object[][] {
-//			},
-//			new String[] {
-//				"New column", "New column"
-//			}
-//		));
-//		panel.add(tablePointTypes, "cell 0 0,grow");
-//	}
 
 }
 }
