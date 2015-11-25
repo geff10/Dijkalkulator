@@ -18,14 +18,14 @@
 		<item value="244" key="y"/>
 		<item value="377" key="x"/>
 	</section>
-	<section name="org.eclipse.wb.internal.core.editor.actions.assistant.LayoutAssistantWindow">
-		<item value="334" key="y"/>
-		<item value="601" key="x"/>
-	</section>
 	<section name="org.eclipse.wb.internal.core.model.property.editor.string.StringPropertyDialog">
 		<item value="346" key="height"/>
 		<item value="530" key="width"/>
 		<item value="212" key="y"/>
 		<item value="375" key="x"/>
+	</section>
+	<section name="org.eclipse.wb.internal.core.editor.actions.assistant.LayoutAssistantWindow">
+		<item value="334" key="y"/>
+		<item value="601" key="x"/>
 	</section>
 </section>

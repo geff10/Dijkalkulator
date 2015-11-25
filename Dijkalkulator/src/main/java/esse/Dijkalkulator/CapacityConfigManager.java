@@ -127,6 +127,7 @@ public class CapacityConfigManager {
 	public void ReadCapacityTypes() throws FileNotFoundException, IOException{
 		try {
 			ctInputStream = new FileInputStream(ctFileString);
+			capacityTypesProp.clear();
 			capacityTypesProp.load(ctInputStream);
 			
 //			coInputStream = new FileInputStream(coFileString);

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;arg0&apos; in &apos;esse.Dijkalkulator.JDialogPointTypes.JDialogPointTypes().new TableModelListener() {...}.tableChanged(...)&apos; to &apos;tme&apos;&#x0D;&#x0A;- Original project: &apos;Dijkalkulator&apos;&#x0D;&#x0A;- Original element: &apos;esse.Dijkalkulator.JDialogPointTypes.JDialogPointTypes().new TableModelListener() {...}.tableChanged(TableModelEvent).arg0&apos;&#x0D;&#x0A;- Renamed element: &apos;arg0&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;arg0&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;esse.Dijkalkulator{JDialogPointTypes.java[JDialogPointTypes~JDialogPointTypes[~tableChanged~QTableModelEvent;@arg0!1968!1987!1984!1987!QTableModelEvent;!0!true" name="tme" references="true" stamp="1448046175896" version="1.0"/>
+</session>

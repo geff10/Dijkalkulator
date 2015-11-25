@@ -1,20 +1,12 @@
 package esse.Dijkalkulator;
 
 import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
 import javax.swing.JPanel;
-import java.awt.BorderLayout;
-import java.awt.Dialog;
 
 import net.miginfocom.swing.MigLayout;
-import javax.swing.JMenuBar;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
 
 public class GUIForDijkalkulator extends JFrame {
 	PointTypesMenuActionListener oPointTypesMenuActionListener = new PointTypesMenuActionListener();
@@ -25,6 +17,16 @@ public class GUIForDijkalkulator extends JFrame {
 	public void setoPointTypesMenuActionListener(PointTypesMenuActionListener oPointTypesMenuActionListener) {
 		this.oPointTypesMenuActionListener = oPointTypesMenuActionListener;
 	}
+	PointsMenuActionListener oPointsMenuActionListener = new PointsMenuActionListener();
+	public PointsMenuActionListener getoPointsMenuActionListener() {
+		return oPointsMenuActionListener;
+	}
+	
+	public void setoPointsMenuActionListener(PointsMenuActionListener oPointsMenuActionListener) {
+		this.oPointsMenuActionListener = oPointsMenuActionListener;
+	}
+	
+	//ctr
 	public GUIForDijkalkulator() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(700, 700);
@@ -41,21 +43,13 @@ public class GUIForDijkalkulator extends JFrame {
 		JMenu mnFile = new JMenu("File");
 		menuBar.add(mnFile);
 		
-		JMenuItem mntmPontTpusok = new JMenuItem("Pont típusok");
-		
+		JMenuItem mntmPontTpusok = new JMenuItem("Pont típusok");		
 		mntmPontTpusok.addActionListener(oPointTypesMenuActionListener);
-		
-//		mntmPontTpusok.addMouseListener(new MouseAdapter() {
-//			@Override
-//			public void mouseClicked(MouseEvent arg0) {
-//				JFramePointTypes jfpt = new JFramePointTypes();
-//				jfpt.setVisible(true);
-//			}
-//		});
 		mnFile.add(mntmPontTpusok);
 		
 		JMenuItem mntmPontok = new JMenuItem("Pontok");
+		mntmPontok.addActionListener(oPointsMenuActionListener);
 		mnFile.add(mntmPontok);
-	}
+	}//ctr
 
 }
