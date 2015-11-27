@@ -35,7 +35,7 @@ public class GUIForDijkalkulator extends JFrame {
 	//to be accessible:
 	JLabel labelCapacityTypes;
 	JLabel labelCapacities;
-	JLabel labelInput;
+	JLabel label;
 	//ctr
 	public GUIForDijkalkulator() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -94,15 +94,15 @@ public class GUIForDijkalkulator extends JFrame {
 				if (returnVal == JFileChooser.APPROVE_OPTION) {
 					File openedFile = fc.getSelectedFile();
 					//TODO logic
-					labelInput.setText(openedFile.toString());
-					labelInput.setToolTipText(labelCapacityTypes.getText());
+					label.setText(openedFile.toString());
+					label.setToolTipText(labelCapacityTypes.getText());
 				}
 			}
 		});
 		panel.add(btnBemenet, "cell 0 2,growx");
 		
-		labelInput = new JLabel("...");
-		panel.add(labelInput, "cell 1 2");
+		label = new JLabel("...");
+		panel.add(label, "cell 1 2");
 		
 		JMenuBar menuBar = new JMenuBar();
 		setJMenuBar(menuBar);

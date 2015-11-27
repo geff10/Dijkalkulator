@@ -35,7 +35,6 @@ public class GUIForDijkalkulator extends JFrame {
 	//to be accessible:
 	JLabel labelCapacityTypes;
 	JLabel labelCapacities;
-	JLabel labelInput;
 	//ctr
 	public GUIForDijkalkulator() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -45,7 +44,7 @@ public class GUIForDijkalkulator extends JFrame {
 		
 		JPanel panel = new JPanel();
 		getContentPane().add(panel, "cell 0 0,grow");
-		panel.setLayout(new MigLayout("", "[][]", "[][][]"));
+		panel.setLayout(new MigLayout("", "[][]", "[][]"));
 		
 		labelCapacityTypes = new JLabel("...");
 		panel.add(labelCapacityTypes, "cell 1 0");
@@ -60,7 +59,6 @@ public class GUIForDijkalkulator extends JFrame {
 					File openedFile = fc.getSelectedFile();
 					//TODO logic
 					labelCapacities.setText(openedFile.toString());
-					labelCapacities.setToolTipText(labelCapacities.getText());
 				}
 			}
 		});
@@ -79,30 +77,10 @@ public class GUIForDijkalkulator extends JFrame {
 					File openedFile = fc.getSelectedFile();
 					//TODO logic
 					labelCapacityTypes.setText(openedFile.toString());
-					labelCapacityTypes.setToolTipText(labelCapacityTypes.getText());
 				}
 			}
 		});
 		panel.add(btnKapacitstpusokFjlVlaszt, "cell 0 0");
-		
-		JButton btnBemenet = new JButton("Bemenet");
-		btnBemenet.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				final JFileChooser fc = new JFileChooser();
-				int returnVal = fc.showOpenDialog(
-						App.getoGUIForDijkalkulator().getoPointTypesMenuActionListener().getoJDialogPointTypes());
-				if (returnVal == JFileChooser.APPROVE_OPTION) {
-					File openedFile = fc.getSelectedFile();
-					//TODO logic
-					labelInput.setText(openedFile.toString());
-					labelInput.setToolTipText(labelCapacityTypes.getText());
-				}
-			}
-		});
-		panel.add(btnBemenet, "cell 0 2,growx");
-		
-		labelInput = new JLabel("...");
-		panel.add(labelInput, "cell 1 2");
 		
 		JMenuBar menuBar = new JMenuBar();
 		setJMenuBar(menuBar);
